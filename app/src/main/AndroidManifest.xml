@@ -29,7 +29,10 @@
         <activity android:name=".link" />
         <activity android:name=".set" />
         <activity android:name=".team" />
-        <activity android:name=".go"></activity>
+        <activity android:name=".go" />
+        <activity android:name=".sponsorView" />
+        <activity android:name=".friends" />
+        <activity android:name=".info"></activity>
     </application>
 
 </manifest>

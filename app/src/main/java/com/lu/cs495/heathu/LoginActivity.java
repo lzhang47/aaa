@@ -187,10 +187,14 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             // Show a progress spinner, and kick off a background task to
             // perform the user login attempt.
 
-            if (email .equals("runner@gmail.com") && password .equals("123123") ){
-                Intent intent1 =new Intent();
+            if (email .equals("runner@gmail.com") && password .equals("123123") ) {
+                Intent intent1 = new Intent();
                 intent1.setClass(LoginActivity.this, main.class);
                 startActivity(intent1);
+            }else if(email .equals("sponsor@gmail.com") && password .equals("123123") ){
+                Intent intent2 = new Intent();
+                intent2.setClass(LoginActivity.this, sponsorView.class);
+                startActivity(intent2);
 
 
             }else{

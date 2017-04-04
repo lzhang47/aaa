@@ -26,7 +26,7 @@ public class main extends AppCompatActivity {
     protected void buttonOnClick2(View view) {
 
         Intent intent2 = new Intent();
-        intent2.setClass(main.this, stats.class);
+        intent2.setClass(main.this, friends.class);
         startActivity(intent2);
     }
 

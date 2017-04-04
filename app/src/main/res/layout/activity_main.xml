@@ -42,7 +42,7 @@
             android:layout_toRightOf="@+id/button1"
             android:background="#ffffff"
             android:onClick="buttonOnClick2"
-            android:text="stats" />
+            android:text="frends" />
 
 
         <Button
